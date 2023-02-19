@@ -35,7 +35,7 @@ router.post("/", (req, res) => {
   console.log(lastsearch)
   //getting open weather endpoint
 
-  const weatherData = `https://api.openweathermap.org/data/2.5/weather?q=${cityNames}&appid=${key}&units=metric`;
+  const weatherData = `https://api.openweathermap.org/data/2.5/weather?q=${cityNames}&appid=3b1b2af9b8daa61578339ce7003d0d36&units=metric`;
 
   //requesting data from openWeather Servers
 
